@@ -47,13 +47,13 @@
           </tbody></table>
           
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
+            <!-- <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <p><font color="red"><strong>
                   I am currently seeking job opportunities. If there are suitable positions available, please feel free to reach out. Thank you!
                 </strong></font></p>    
               </td>
-            </tr>
+            </tr> -->
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
@@ -65,6 +65,36 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+    <tr onmouseout="seed3d_stop()" onmouseover="seed3d_start()">
+      <td style="padding:16px;padding-top:40px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='seed3d_image'>
+            <img src='images/seed3d.gif' style="width: 100%; object-fit: cover;">
+        </div>
+        <script type="text/javascript">
+          function seed3d_start() {
+            document.getElementById('seed3d_image').style.opacity = "1";
+          }
+          seed3d_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://seed.bytedance.com/en/seed3d">
+          <span class="papertitle">Seed3D 1.0: From Images to High-Fidelity Simulation-Ready 3D Assets</span>
+        </a>
+        <br>
+        ByteDance Seed Team: <strong>Xuanmeng Zhang</strong>* (Contributor), 2025
+        <br>
+        <a href="https://seed.bytedance.com/en/seed3d">project page</a>
+        /
+        <a href="https://arxiv.org/pdf/2510.19944">technical report</a>
+        /
+        <a href="data/seed3d2025.bib">bibtex</a>
+        <p>
+          Seed3D 1.0 is a foundation model that create high-fidelity simulation-ready 3D assets from images.
+        </p>
+      </td>
+    </tr>
 
     <tr onmouseout="avatarstudio_stop()" onmouseover="avatarstudio_start()">
       <td style="padding:16px;padding-top:40px;width:20%;vertical-align:middle">
